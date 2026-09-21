@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#canvasContainer {
+    display: flex;
+    align-items: start;
+    width: 50%;
+    max-height: 600px;
+    max-width: auto;
+}
+
+#canvasImagine {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    max-height: 600px;
+    max-width: fit-content;
+}
+
+/*width-ul celor 2 canvas < 100% */
+
+#canvasCrop {
+    width: 25%; 
+    height: 75%;
+    max-height: 450px;
+    max-width: fit-content;
+    align-self: center;
+    border: 1px solid #000; 
+}
+
+#canvasHistogram {
+    border: 1px solid #000; 
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#CropHistogramContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 50%;
+}
+
+#btnStergere {
+    position: fixed;
+    background-color:#FFDAB9;
+    border: none;
+    padding: 10px;
+    bottom:20px;
+    left:80%;
+    transform:translate(-50%);
+}
+
+#btnText {
+    background-color:#ffb9c3;
+    border: none;
+    padding: 10px;
+    bottom:20px;
+    left:50%;
+}
+
+
+#textForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#resizeForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#Effects{
+    position:fixed;
+    bottom:20px;
+    left:20%;
+    transform:translate(-50%);
+    background-color: rgba(232, 151, 151, 0.8);
+    padding:10px;
+}
